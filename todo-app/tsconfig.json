@@ -5,7 +5,6 @@
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
-    "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
@@ -19,10 +18,8 @@
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
-    "lib": [
-      "ES2022",
-      "dom"
-    ]
+    "lib": ["ES2022", "dom"]
+    // "strictNullChecks": false //sehv ola bilecek olan kodlarin qarshisini alir(hansi ki objectleri contructorda beraberleshdirmek istemirikse bunu false edirk.eks halda mecburen etmek lazimdir)
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
